@@ -23,5 +23,6 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
   s.framework = "CFNetwork"
 
-  s.dependency "AFNetworking", :git => 'https://github.com/SecretLisa/AFNetworking.git', :tag => '3.2.2'
+# dependency not support git
+# s.dependency "AFNetworking", :git => 'https://github.com/SecretLisa/AFNetworking.git', :tag => '3.2.2'
 end
